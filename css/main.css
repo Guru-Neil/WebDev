@@ -56,13 +56,16 @@ h2 {
  h1.name {
 	font-family: 'Lobster', sans-serif;
 	font-size: 5.75em;
-	width: 100%;
  }
  
  h2.developer {
 	font-size: 3.75em;
+}
+
+header a, header nav a {
 	width: 100%;
 }
+
 
 
 /************************************************
