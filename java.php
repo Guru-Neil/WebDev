@@ -17,7 +17,7 @@
 <nav>
 <ul>
 	<?php 
-		$page="home"; // Change to reflect current page
+		$page="java"; // Change to reflect current page
 		include 'menu.php';
 	?>
 </ul>
@@ -25,34 +25,7 @@
 </header>
 <div id="wrapper">
 <section>
-<!-- Gallery -->
-<div class="gallery">
-<center>
-<table width="100%">
-<?php
-	$table = array("html", "css", "php", "python", "ruby", "ios", "android", "c", "cpp", "dotnet", "java", "javascript", " ", "snippets", " ");
-	$test=count($table)-1;
-	for ($x = 0; $x <= $test; $x=$x+3) {
-		if ($table[$x]== " "){
-			echo '<tr><td width="33%"></td>';
-		} else {
-			echo '<tr><td width="33%"><a href="'.$table[$x].'.php"><img src="./img/'.$table[$x].'.png"></a></td>';
-		}
-    	if ($table[$x+1]== " "){
-			echo '<tr><td width="33%"></td>';
-		} else {
-			echo '<td width="33%"><a href="'.$table[$x+1].'.php"><img src="./img/'.$table[$x+1].'.png"></a></td>';
-		}
-		if ($table[$x+2]== " "){
-			echo '<tr><td width="33%"></td>';
-		} else {
-			echo '<td width="33%"><a href="'.$table[$x+2].'.php"><img src="./img/'.$table[$x+2].'.png"></a></td>';
-		}
-	} 
-?>
-</table>
-</center>
-</div>
+<!-- Section code goes here -->
 </section>
 <footer>
 	<a href="http://twitter.com/GuruComputersUK">
