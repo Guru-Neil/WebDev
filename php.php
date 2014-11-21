@@ -25,7 +25,27 @@
 </header>
 <div id="wrapper">
 <section>
-<!-- Section code goes here -->
+<div class="code">
+<center>
+<table width="100%">
+<?php
+	$prow=3;
+	$table = array("ul_menu", "table", "copyright");
+
+	$test=count($table);
+	$percentage=100/$prow;
+	$rows=ceil($test / $prow);
+	for ($x = 0; $x < $test; $x=$x+$prow) {
+		echo '<tr>';
+		for ($y=0; $y < $prow; $y++){
+			echo '<td width="'.$percentage.'%"><a href="#")>'.$table[($x+$y)].'</a></td>';
+		}
+		echo '</tr>';
+	}
+?>
+</table>
+</center>
+</div>
 </section>
 <footer>
 	<a href="http://twitter.com/GuruComputersUK">
