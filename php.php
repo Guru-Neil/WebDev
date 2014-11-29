@@ -31,6 +31,7 @@
 <?php
 	$prow=3;
 	$table = array("ul_menu", "table", "copyright");
+	$title = array("Un-ordered list Menu", "", "Auto Updating Copyright");
 
 	$test=count($table);
 	$percentage=100/$prow;
@@ -38,7 +39,7 @@
 	for ($x = 0; $x < $test; $x=$x+$prow) {
 		echo '<tr>';
 		for ($y=0; $y < $prow; $y++){
-			echo '<td width="'.$percentage.'%"><a href="#")>'.$table[($x+$y)].'</a></td>';
+			echo '<td width="'.$percentage.'%"><a href="#" title="'.$title[($x+$y)].'")>'.$table[($x+$y)].'</a></td>';
 		}
 		echo '</tr>';
 	}
