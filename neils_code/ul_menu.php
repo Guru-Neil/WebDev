@@ -1,11 +1,12 @@
 <?php
 	$page="php";
-	include $root.'static_components/head.php'
+	$layer=1;
+	include '../static_components/head.php'
 ?>
 <div id="wrapper">
 <section>
 
 </section>
 <?php
-	include $root.'static_components/foot.php';
+	include '../static_components/foot.php';
 ?>

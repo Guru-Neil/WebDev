@@ -1,3 +1,10 @@
+<?php
+	if ($layer==0){
+		$root='./';
+	}else{
+		$root='../';
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +30,7 @@
 <nav>
 <ul>
 	<?php 
-		include 'menu.php';
+		include $root.'menu.php';
 	?>
 </ul>
 </nav>

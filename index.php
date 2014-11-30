@@ -1,7 +1,6 @@
 <?php
 	$page="home";
-	$docroot=getcwd();
-	$root=$docroot.'/';
+	$layer=0;
 	include 'static_components/head.php';
 ?>
 <div id="wrapper">

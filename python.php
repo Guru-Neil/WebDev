@@ -1,5 +1,6 @@
 <?php
 	$page="python";
+	$layer=0;
 	include $root.'static_components/head.php'
 ?>
 <div id="wrapper">
